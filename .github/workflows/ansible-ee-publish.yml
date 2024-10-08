@@ -40,10 +40,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9'
+          python-version: '3.12'
 
       - name: Install ansible-builder
-        run: pip3 install ansible-builder==3.0.0
+        run: pip3 install ansible-builder==3.1.0
 
       # Login against a Docker registry except on PR
       # https://github.com/docker/login-action
