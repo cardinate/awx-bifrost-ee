@@ -3,8 +3,8 @@ from invoke import task
 
 @task
 def build_ee(c):
-    """Builds the container image for awx-network-ee with a verbose debug"""
-    c.run("ansible-builder build -t awx-network-ee:latest -v 3")
+    """Builds the container image for awx-bifrost-ee with a verbose debug"""
+    c.run("ansible-builder build -t awx-bifrost-ee:latest -v 3")
 
 
 @task

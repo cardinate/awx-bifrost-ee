@@ -1,4 +1,4 @@
-# awx-network-ee
+# awx-bifrost-ee
 
 This now uses the updated ansible-builder v3 refactor.
 
@@ -7,5 +7,5 @@ This new version of ansible-builder addresses a lot of the issues with not being
 ## Building
 
 ```bash
-ansible-builder build -t awx-network-ee:latest -v 3
+ansible-builder build -t awx-bifrost-ee:latest -v 3
 ```
