@@ -1,3 +1,4 @@
 .vscode/*
 context/*
 .ruff_cache/*
+.DS_Store
